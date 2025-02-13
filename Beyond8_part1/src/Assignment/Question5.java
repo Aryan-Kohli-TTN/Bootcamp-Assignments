@@ -26,7 +26,11 @@ public class Question5 {
         String html = """
                 \thello
                 \tworld
-                \taryan""";
+                \taryan"""+ """
+               \t
+               
+               \t\tdnindw
+               \t\tdbwio""";
         String s = html.stripIndent();
         System.out.println(s);
 
