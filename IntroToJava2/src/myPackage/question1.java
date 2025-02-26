@@ -9,9 +9,7 @@ public class question1 {
         Medium_house(200),
         Large_house(700);
         private int price;
-        house(int price){
-            this.price=price;
-        }
+        house(int price){}
         public int getPrice() {
             return price;
         }
